@@ -10,8 +10,8 @@
 .menu,
 .quiz,
 .Endscreen {
-  width: 40%;
-  height: 80vh;
+  max-width: 40%;
+  max-height: 80vh;
   background-color: lightseagreen;
   border-radius: 10px;
   display: flex;
@@ -28,8 +28,8 @@
 }
 
 .option {
-  width: 100%;
-  height: 50vh;
+  max-width: 100%;
+  max-height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -40,8 +40,8 @@
 .menu button,
 .quiz button,
 .Endscreen button {
-  width: 50%;
-  height: 10vh;
+  max-width: 50%;
+  max-height: 10vh;
   margin: 0.1rem;
   border-radius: 2px;
   cursor: pointer;
